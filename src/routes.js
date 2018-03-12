@@ -8,7 +8,7 @@ import { Left, Right, Whoops404 } from './components'
 const routes = (
     <Router history={hashHistory}>
         <Route path="/" component={Home} />
-        <Route path="/" component={Right} >
+        <Route path="/" component={Left} >
         	<Route path="about" component={About} />
         	<Route path="members" component={MemberList} />
         </Route>
